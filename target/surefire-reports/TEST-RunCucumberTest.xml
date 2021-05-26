@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RunCucumberTest" time="8.544" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Projects_AQA\Education\java-cucumber-allure-gitlab-master\target\test-classes;C:\Projects_AQA\Education\java-cucumber-allure-gitlab-master\target\classes;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-java\6.10.2\cucumber-java-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-core\6.10.2\cucumber-core-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-gherkin\6.10.2\cucumber-gherkin-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.2\cucumber-gherkin-messages-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-plugin\6.10.2\cucumber-plugin-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\docstring\6.10.2\docstring-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\Olexiy\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-junit\6.10.2\cucumber-junit-6.10.2.jar;C:\Users\Olexiy\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Olexiy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Olexiy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\Olexiy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Olexiy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\Olexiy\.m2\repository\org\junit\vintage\junit-vintage-engine\5.7.1\junit-vintage-engine-5.7.1.jar;C:\Users\Olexiy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\Olexiy\.m2\repository\io\qameta\allure\allure-junit5\2.13.1\allure-junit5-2.13.1.jar;C:\Users\Olexiy\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.1\allure-junit-platform-2.13.1.jar;C:\Users\Olexiy\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\Olexiy\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\Olexiy\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Olexiy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Olexiy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Olexiy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Olexiy\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Olexiy\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\Olexiy\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\Olexiy\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Olexiy\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Olexiy\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Olexiy\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Olexiy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Olexiy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Olexiy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Olexiy\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Olexiy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Olexiy\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Olexiy\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Olexiy\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Olexiy\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Olexiy\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Olexiy\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Olexiy\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Olexiy\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Olexiy\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Olexiy\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Olexiy\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Olexiy\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Olexiy\AppData\Local\Temp\surefire6169172483438969967\surefirebooter5615355290956089456.jar C:\Users\Olexiy\AppData\Local\Temp\surefire6169172483438969967 2021-05-26T15-35-32_904-jvmRun1 surefire5536734393356138295tmp surefire_03370735024074432864tmp"/>
+    <property name="surefire.test.class.path" value="C:\Projects_AQA\Education\java-cucumber-allure-gitlab-master\target\test-classes;C:\Projects_AQA\Education\java-cucumber-allure-gitlab-master\target\classes;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-java\6.10.2\cucumber-java-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-core\6.10.2\cucumber-core-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-gherkin\6.10.2\cucumber-gherkin-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.2\cucumber-gherkin-messages-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-plugin\6.10.2\cucumber-plugin-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\docstring\6.10.2\docstring-6.10.2.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\Olexiy\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Olexiy\.m2\repository\io\cucumber\cucumber-junit\6.10.2\cucumber-junit-6.10.2.jar;C:\Users\Olexiy\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Olexiy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Olexiy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\Olexiy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Olexiy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\Olexiy\.m2\repository\org\junit\vintage\junit-vintage-engine\5.7.1\junit-vintage-engine-5.7.1.jar;C:\Users\Olexiy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\Olexiy\.m2\repository\io\qameta\allure\allure-junit5\2.13.1\allure-junit5-2.13.1.jar;C:\Users\Olexiy\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.1\allure-junit-platform-2.13.1.jar;C:\Users\Olexiy\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\Olexiy\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\Olexiy\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Olexiy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Olexiy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Olexiy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Olexiy\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Olexiy\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\Olexiy\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\Olexiy\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Olexiy\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Olexiy\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Olexiy\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Olexiy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Olexiy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Olexiy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Olexiy\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Olexiy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Olexiy\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Olexiy\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Olexiy\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Olexiy\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Olexiy\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Olexiy\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Olexiy\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Olexiy\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Olexiy\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Olexiy\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Olexiy\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Olexiy\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Olexiy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="C:\Projects_AQA\Education\java-cucumber-allure-gitlab-master"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Olexiy\AppData\Local\Temp\surefire6169172483438969967\surefirebooter5615355290956089456.jar;C:\Users\Olexiy\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="Olexiy"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Olexiy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Olexiy\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Projects_AQA\Education\java-cucumber-allure-gitlab-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files (x86)\PuTTY\;C:\Projects_AQA\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Users\Olexiy\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Olexiy\AppData\Local\Programs\Python\Python38-32\;C:\Users\Olexiy\AppData\Local\Microsoft\WindowsApps;;C:\Users\Olexiy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;."/>
+    <property name="junit.jupiter.extensions.autodetection.enabled" value="true"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name=": Sent request for getting articles #1" classname="RunCucumberTest" time="6.509">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<404> but was:<200>
+]]></failure>
+    <system-out><![CDATA[
+Scenario Template: : Sent request for getting articles &amp#27;[90m# src/test/resources/features/Article.feature:10&amp#27;[0m
+Request method:	GET
+Request URI:	https://www.healthcare.gov/api/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Accept-Ranges: bytes
+Content-Type: text/html
+ETag: "a5f920980794ba6a4fcca29bfaede807:1606324283.97095"
+Last-Modified: Wed, 25 Nov 2020 17:11:23 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2170
+Expires: Wed, 26 May 2021 12:35:44 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Wed, 26 May 2021 12:35:44 GMT
+Connection: keep-alive
+Set-Cookie: optimizelyEndUserId=e63c516809050000a040ae6004020000c1010000; expires=Fri, 26-May-2023 12:35:44 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: _ga=GA1.2.1389982871.1622032544; expires=Fri, 26-May-2023 12:35:44 GMT; path=/; domain=.healthcare.gov; secure
+Set-Cookie: edgeip=104.81.116.165; expires=Wed, 26-May-2021 12:36:44 GMT; secure
+Set-Cookie: clientip=176.37.152.160; expires=Wed, 26-May-2021 12:36:44 GMT; secure
+Set-Cookie: requestid=da6b62e.226843; expires=Wed, 26-May-2021 12:36:44 GMT; secure
+Set-Cookie: time=1622032544; expires=Wed, 26-May-2021 12:36:44 GMT; secure
+Set-Cookie: akavpau_vp1=1622032844~id=fe11185bc4cbd45cd8b9a8e6d36c8ae0; Path=/; Secure; SameSite=None
+Cache-Control: max-age=0, no-cache, no-store
+Strict-Transport-Security: max-age=31536000 ; preload
+X-XSS-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: master-only
+X-Frame-Options: SAMEORIGIN
+
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"/>
+    <title>Sorry, we can't find that page | HealthCare.gov</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+    <link rel="alternate" type="application/rss+xml" title="Health Insurance Blog - Healthcare.gov" href="/blog/blog.rss"/>
+    <link rel="P3Pv1" href="/w3c/p3p.xml"/>
+    <meta name="msvalidate.01" content="598A98B6EDF7624D92A421A892DC3A45"/>
+    <meta name="search-title" content="Sorry, we can't find that page"/>
+    <meta name="content-type" content="index"/>
+    <meta name="bite" content=""/>
+    <meta name="description" content=""/>
+    <meta property="og:title" content="Sorry, we can't find that page"/>
+    <meta property="og:type" content="index"/>
+    <meta property="og:image" content="https://www.healthcare.gov/images/logo.png"/>
+    <meta property="og:site_name" content="HealthCare.gov"/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:card" content=""/>
+    <meta name="twitter:url" content="HealthCare.gov"/>
+    <meta name="twitter:title" content="Sorry, we can't find that page"/>
+    <script>
+    window.baseUrl = "";
+  </script>
+    <script type="text/javascript" src="//tags.tiqcdn.com/utag/cmsgov/healthcare-learn/prod/utag.sync.js"/>
+    <script type="text/javascript" src="//assets.healthcare.gov/resources/libs/optimizely/optimizely.js"/>
+    <script type="text/javascript">var _sf_startpt = (new Date()).getTime();</script>
+    <script src="//assets.healthcare.gov/resources/libs/jquery/1.11/js/jquery.min.js"/>
+    <script src="//assets.healthcare.gov/resources/libs/bootstrap/3.1.1/js/bootstrap.min.js"/>
+    <script type="text/javascript" src="/js/all.js"/>
+    <link rel="publisher" href="//plus.google.com/112755994883163074657"/>
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+    <link href="/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+    <link href="/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="120x120"/>
+    <link href="/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+    <link href="/css/all-learn.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/print.css" type="text/css" media="print"/>
+    <link rel="stylesheet" href="/css/bootstrap-accessibility.css"/>
+  </head>
+  <body class="no-touch portal-id-learn" id="hcgov-learn">
+    <script type="text/javascript">
+	var utag_data = {"page_name":"Sorry, we can't find that page"};
+</script>
+    <script type="text/javascript">
+    (function(a,b,c,d){
+      a='//tags.tiqcdn.com/utag/cmsgov/healthcare-learn/'+(/www.healthcare.gov|www.cuidadodesalud.gov/.test(window.location.hostname)?'prod':'dev')+'/utag.js';
+      b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+      a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+  </script>
+    <include src="/esi/header-learn.html"/>
+    <div class="main-body-content" id="main-body-content" role="main" tabindex="-1">
+      <div class="lite-card">
+        <div class="lite-card-inner">
+          <div class="container fourofour">
+            <h1>
+Sorry, we can't find that page              <br clear="none"/>
+on HealthCare.gov            </h1>
+            <p>
+We've recently reorganized our site, and that may explain it.              <br clear="none"/>
+It's also possible that you typed the address incorrectly.            </p>
+            <hr/>
+            <h3>Search HealthCare.gov</h3>
+            <div class="input-append">
+              <form enctype="application/x-www-form-urlencoded" method="get" class="gsearch" role="search" name="gsearch" action="/search">
+                <div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
+                  <div class="input-group">
+                    <input type="search" class="form-control nav-search" id="404-search" title="Site Search" name="q" placeholder="Search HealthCare.gov" autocomplete="off"/>
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn btn-blue btn-search" value="search">Search</button>
+                    </span>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div style="text-align: center; margin:  .25em auto; font: 80% normal Arial, Tahoma, sans serif; color: rgba(0, 0, 0, 0);">
+              <p>Please include the reference ID below if you wish to contact us at 1-800-318-2596 for support.</p>
+              <p>
+                <script language="javascript" type="text/javascript">
+    &lt;!--
+    document.write("Error from: " + escape(window.location.href));
+    // --&gt;
+  </script>
+                <br clear="none"/>
+ Reference ID:                 <span id="refId">Javascript is required to generate the reference ID.</span>
+              </p>
+              <script language="javascript" type="text/javascript" src="/js/gov.hc.diagnostic.js"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <include src="/esi/footer-full-learn.html"/>
+    <script src="/js/default.js"/>
+  </body>
+</html>
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet Articles &amp#27;[0m&amp#27;[32m&amp#27;[1m"articles.json"&amp#27;[0m&amp#27;[32m Request&amp#27;[0m           &amp#27;[90m# steps.ArticleMyStepdefs.getArticlesRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mResponse code is: &amp#27;[0m&amp#27;[31m&amp#27;[1m"200"&amp#27;[0m                         &amp#27;[90m# steps.ArticleMyStepdefs.responseCodeIs(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at steps.ArticleMyStepdefs.responseCodeIs(ArticleMyStepdefs.java:29)
+	at âœ½.Response code is: "200"(file:///C:/Projects_AQA/Education/java-cucumber-allure-gitlab-master/src/test/resources/features/Article.feature:7)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name=": Sent request for getting articles #2" classname="RunCucumberTest" time="0.473"/>
+  <testcase name=": Sent request for getting articles #3" classname="RunCucumberTest" time="0.151"/>
+</testsuite>
